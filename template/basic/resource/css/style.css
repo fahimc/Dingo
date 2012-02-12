@@ -1,0 +1,45 @@
+html,body{margin: 0px; padding: 0px;}
+body{font-family: 'Questrial', sans-serif, Arial, serif; font-weight: 400; background-color: #d0d0d0; }
+*{ padding: 0px; margin: 0px;}
+#header{ width:100%; height: 180px; background-color: #3a3a3a;}
+.logo{font-family: 'Inder', sans-serif; font-size: 72px; color: #648088; margin-left: 20px; padding-top: 20px;}
+#nav{width:100%; height: 50px; background-color: #333;}
+#sidebar{width:180px; height: 500px; float: left; overflow: auto; margin-left: 20px; margin-top: 20px;}
+a{cursor: pointer; font-size: 18px;}
+a:hover{color:#00afa9; }
+#main{width:800px; height: 500px; float: left;margin-top: 20px;}
+#createView{ width: inherit; height: inherit;  visibility: hidden; position: absolute;}
+#createView div{margin-bottom: 20px;}
+#createLeftCol{width:500px; float: left; height: inherit}
+#createRightCol{width:200px; height: inherit; float: right;}
+#createRightCol h1{ margin-left: 30px;}
+#createLabelList{width:inherit;height: 450px;}
+#createLabelList div{margin-bottom: 5px; margin-left: 30px;}
+#php{width:100%; height: 1px; overflow: auto; display: none; }
+#createLabelId p{float: left; margin-right: 20px; font-size: 16px; font-weight: bold;}
+#pageIdDropdown{width:150px;margin-top: -4px; height: 20px;}
+#createLabelName p{float: left; margin: 0px; padding: 0px;}
+.rightLabelHolder{clear: both;display: block;}
+.rightLabelHolder a{}
+#pageLabelHolder p { float: left;}
+#adminLabelCopy{width:300px; height: 200px;}
+#LeftColTitle,#labelTitle{color: #00afa9; font-weight: bolder; font-size: 21px; margin-bottom: 10px;}
+.createHeader{background-color: #09BC52; width: 100%; height: 50px; font-size: 30px; color: #fff;}
+#pageName{padding-left: 20px; padding-top: 10px;}
+#textAreaTitle{margin-top:10px; margin-bottom: 10px; font-weight: bold; }
+.saveBtn{float: right;background: url('../image/saveBtn.png');width:198px;height: 74px; border: 0px; cursor: pointer; color:#fff;font-size: 30px;font-weight: bold;}
+.saveBtn:hover{background-position: 0px 73px; }
+.removeLabel{margin-left: 10px; color: #f00;}
+#pageLabel{margin-left:20px;}
+#pageLocation{float:left; width:250px; overflow: hidden;}
+#labelName{height: 35px; margin-left: 20px; width:200px}
+#nav a{text-decoration: none; font-size: 22px;  font-weight: bolder; margin-left: 20px;  float: left;}
+#nav a:active{color: #FFF;}
+#nav a:link{color: #FFF;}
+#nav a:visited{color: #FFF;}
+.navSelected{color: #00afa9;}
+#nav p{padding-top: 10px;}
+#welcomeScreen{position: absolute; margin: 20px;}
+#welcomeScreen h1{font-size: 40px; font-weight: bolder;}
+#welcomeScreen p{font-size: 20px;margin-top: 20px;}
+.logo1{color:#B1CDD4 ;}

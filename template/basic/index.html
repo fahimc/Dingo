@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="template/basic/resource/css/style.css" />
+		<script type="text/javascript" src="lib/com/cms/src/Main.js"></script>
+		<script type="text/javascript" src="lib/com/tiny_mce/tiny_mce.js"></script>
+		<script type="text/javascript" src="lib/core/toolkit.js"></script>
+		<script type="text/javascript" src="template/basic/src/BasicMain.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="header">
+			<p class="logo">
+				<span class="logo1">DINGO</span>CMS
+			</p>
+		</div>
+		<div id="nav">
+			<p>
+				<a class="navSelected">Home</a><a href="admin.php" target="_self">Setup</a>
+			</p>
+		</div>
+		<div id="sidebar">
+			<p id="LeftColTitle">
+				Web Pages
+			</p>
+		</div>
+		<div id="main">
+			<div id="welcomeScreen">
+				<h1>Welcome to Dingo CMS</h1>
+				<p>Select a Page from the left column to edit a label.</p>
+			</div>
+			<div id="createView">
+				<div id="createLeftCol">
+					<div class="createHeader">
+						<p id="pageName"></p>
+					</div>
+					<div id="createLabelId">
+						<p>
+							Select a Label
+						</p>
+						<select id="pageIdDropdown"></select>
+					</div>
+					<div >
+						<p id="textAreaTitle">
+							Update/Add Copy
+						</p>
+						<textarea id="adminLabelCopy"></textarea>
+					</div>
+					<input type="submit" value="save" id="upadteCopyButton" class="saveBtn"/>
+				</div>
+				<div id="createRightCol">
+					<h1 id="labelTitle">Labels</h1>
+					<div id="createLabelList"></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<iframe id="php" src="" ></iframe>
+	</body>
+</html>

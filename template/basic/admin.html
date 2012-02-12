@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="template/basic/resource/css/style.css" />
+		<script type="text/javascript" src="lib/com/cms/src/Main.js"></script>
+		<script type="text/javascript" src="lib/core/toolkit.js"></script>
+		<script type="text/javascript" src="template/basic/src/AdminBasicMain.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+	
+	</head>
+	<body>
+		<div id="header"><p class="logo"><span class="logo1">DINGO</span>CMS</p></div>
+		<div id="nav"><p><a href="index.php" target="_self">Home</a><a class="navSelected">Setup</a></p></div>
+		<div id="sidebar"><p id="LeftColTitle">Web Files</p></div>
+		<div id="main">
+			<div id="welcomeScreen">
+				<h1>Welcome to the Admin Screen</h1>
+				<p>Select a Page from the left column to create a label.</p>
+			</div>
+			<div id="createView">
+				<div id="createLeftCol">
+					<div class="createHeader"><p id="pageName"></p></div>
+					<div id="pageLabelHolder">
+					<div id="pageLocation"></div>
+					
+						<p>
+							Add a Page Label:
+						</p>
+						<input type="text" id="pageLabel"/>
+					</div>
+					<div id="createLabelId">
+						<p>
+							Select Element ID:
+						</p>
+						<select id="pageIdDropdown"></select>
+					</div>
+					<div id="createLabelName">
+						<p>
+							Create a Label Name:
+						</p>
+						<input type="text" id="labelName"/>
+					</div>
+					<input type="submit" value="add" id="createLabelButton" class="saveBtn"/>
+				</div>
+				<div id="createRightCol">
+					<h1 id="labelTitle">Labels</h1>
+					<div id="createLabelList"></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<iframe id="php" src="" ></iframe>
+	</body>
+</html>
